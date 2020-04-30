@@ -6,6 +6,7 @@ public class Movimiento : MonoBehaviour
 {
     // Start is called before the first frame update
     Rigidbody rb1;
+   
     void Start()
     {
         rb1 = gameObject.GetComponent<Rigidbody>();

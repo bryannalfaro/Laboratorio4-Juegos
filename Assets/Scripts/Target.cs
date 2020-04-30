@@ -8,6 +8,8 @@ public class Target : MonoBehaviour
     private Vector3 posicionInicial;
     private int velocidad_Programa = 2;
     public float health = 50;
+    public AudioDeath managerAudio; 
+    
 
    
 
@@ -35,7 +37,7 @@ public class Target : MonoBehaviour
 
     void Die()
     {
-         
+        if (managerAudio) managerAudio.deathSound();
         Destroy(gameObject);
        
     }

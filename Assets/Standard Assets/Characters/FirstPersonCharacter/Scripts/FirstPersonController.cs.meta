@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 05ec5cf00ca181d45a42ba1870e148c3
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_JumpSound: {fileID: 8300000, guid: 1fcfcb6937de77d46ad3959ef00f4ecf, type: 3}
+  - m_LandSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
+  assetBundleVariant: 
