@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Bryann Alfaro
+ * Clase que controla la pistola
+ * Referencia: Youtube Brackeys y clase en linea
+ */
 public class Gun : MonoBehaviour
 
 {
+    //Propiedades
     public float damage = 50;
     public float range = 100;
     public Camera camara;
@@ -37,6 +43,7 @@ public class Gun : MonoBehaviour
         }
     }
 
+    //Disparo
    void Shoot ()
     {
         RaycastHit hit;

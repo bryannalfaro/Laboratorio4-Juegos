@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 /*
  * Bryann Alfaro
- * Clase que controla el menu de pausa
+ * Clase que controla el volumen
  * Referencia: Clase impartida
  */
 public class Pause : MonoBehaviour

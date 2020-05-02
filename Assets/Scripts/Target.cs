@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Bryann Alfaro
+ * Clase que controla los objetivos
+ */
 public class Target : MonoBehaviour
 {
     private Vector3 posicionInicial;
